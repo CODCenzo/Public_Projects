@@ -1,0 +1,14 @@
+Venus
+Simulador Venus:
+https://venus.cs61c.org
+Use o seguinte formato para seus programas.
+# Faça seu programa Aqui
+# Sempre mantenha no final o seguinte
+# Vai chamar o S.O. com código 0 para finalizar o programa
+addi a0, x0, 17
+addi a1, x0, 0
+ecall
+
+O Venus (e outros simuladores) incluem um simulador de sistema operacional para entrada e saída.
+Precisa carregar o valor da chamada para o registrador correto, e realizar a chamada via instrução ecall.
+Veja como fazer em: https://github.com/61c-teach/venus/wiki/Environmental-Calls 
