@@ -1,0 +1,14 @@
+addi r5, r0, 20
+addi r6, r0, 50
+add r7, r6, r5	#50 + 20 = 70
+sub r8, r6, r5  #50 - 20 = 30
+and r9, r6, r5  #50 and 20 = 16
+or r10, r6, r5  #50 or 20 = 54
+slli r13, r5, 4 # 20 -> 4 = 160
+sw r7, 0(r0)
+sw r8, 4(r0)
+sw r9, 8(r0)
+sw r10, 12(r0)
+sw r13, 16(r0)
+lw r14, 16(r0)
+sw r14, 20(r0)
