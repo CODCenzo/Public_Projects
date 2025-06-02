@@ -6,9 +6,12 @@ and r9, r6, r5  #50 and 20 = 16
 or r10, r6, r5  #50 or 20 = 54
 slli r13, r5, 4 # 20 -> 4 = 160
 sw r7, 0(r0)
-sw r8, 4(r0)
-sw r9, 8(r0)
-sw r10, 12(r0)
-sw r13, 16(r0)
-lw r14, 16(r0)
-sw r14, 20(r0)
+sw r8, 1(r0)
+sw r9, 2(r0)
+sw r10, 3(r0)
+sw r13, 4(r0)
+lw r14, 5(r0)
+sw r14, 6(r0)
+addi r5, r0, 20
+addi r6, r0, 20
+beq r5, r6, -14

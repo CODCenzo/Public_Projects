@@ -115,13 +115,13 @@
       <a name="facing" val="east"/>
       <a name="label" val="MemRead"/>
     </comp>
-    <comp lib="0" loc="(270,1060)" name="Clock"/>
     <comp lib="0" loc="(300,860)" name="Constant"/>
-    <comp lib="0" loc="(320,1060)" name="Tunnel">
-      <a name="label" val="CLK"/>
-    </comp>
     <comp lib="0" loc="(370,840)" name="Tunnel">
       <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(630,1000)" name="Clock"/>
+    <comp lib="0" loc="(680,1000)" name="Tunnel">
       <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(810,350)" name="Constant">
@@ -151,7 +151,9 @@
       <a name="addrWidth" val="24"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 24 32
-0
+1400293 3200313 5303b3 40530433 53c4b3 53a533 429293 702023
+8021a3 902223 a023a3 d02423 50e083 e02623 1400293 1400313
+fe6282e3
 </a>
       <a name="dataWidth" val="32"/>
     </comp>
@@ -285,20 +287,22 @@
     <wire from="(2230,930)" to="(2280,930)"/>
     <wire from="(2250,780)" to="(2250,920)"/>
     <wire from="(2250,920)" to="(2280,920)"/>
-    <wire from="(2520,960)" to="(2610,960)"/>
-    <wire from="(2560,980)" to="(2560,1090)"/>
-    <wire from="(2560,980)" to="(2610,980)"/>
+    <wire from="(2520,960)" to="(2530,960)"/>
+    <wire from="(2530,960)" to="(2530,980)"/>
+    <wire from="(2530,980)" to="(2610,980)"/>
+    <wire from="(2560,960)" to="(2560,1090)"/>
+    <wire from="(2560,960)" to="(2610,960)"/>
     <wire from="(2610,980)" to="(2610,990)"/>
     <wire from="(2620,650)" to="(2620,950)"/>
     <wire from="(2630,970)" to="(2670,970)"/>
     <wire from="(2670,970)" to="(2670,1260)"/>
-    <wire from="(270,1060)" to="(320,1060)"/>
     <wire from="(290,40)" to="(2060,40)"/>
     <wire from="(290,40)" to="(290,820)"/>
     <wire from="(290,820)" to="(390,820)"/>
     <wire from="(300,860)" to="(390,860)"/>
     <wire from="(370,840)" to="(390,840)"/>
     <wire from="(610,820)" to="(660,820)"/>
+    <wire from="(630,1000)" to="(680,1000)"/>
     <wire from="(660,220)" to="(660,820)"/>
     <wire from="(660,220)" to="(700,220)"/>
     <wire from="(660,820)" to="(740,820)"/>
