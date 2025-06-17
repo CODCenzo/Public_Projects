@@ -1,8 +1,0 @@
-# Registradores temporários são t0 = r5, t1 = r6, t2 = r7, t3 = r28, t4 = r29, t5 = r30, t6 = r31
-
-addi r5, r0, 10
-addi r6, r0, 20
-
-addi r7, r0, 666666   #t2 = 666666
-add r28, r5, r6        #t3 = t0 + t1
-add r5, r28, r7        #t0 = (t0 + t1) + t2
